@@ -1,0 +1,278 @@
+.border-underline {
+  border-bottom: 1px solid black;
+}
+
+.overlay * {
+  position: relative;
+  z-index: 2;
+}
+
+.overlay::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 60%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+address {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24.3px;
+}
+
+.header {
+  margin-top: 92px;
+}
+
+.header__nav {
+  display: grid;
+  grid-template-columns: 391.5px 1fr 240px;
+  justify-content: space-between;
+  align-items: center;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.header__menu {
+  font-size: 18px;
+  display: flex;
+  gap: 15px;
+  list-style-type: none;
+
+}
+
+.contacts {
+  list-style-type: none;
+}
+
+.image-with-margin {
+  width: 138px;
+  margin-left: 39px;
+}
+
+.header__item {
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.circle::before {
+  content: '';
+  width: 6px;
+  height: 6px;
+  border: 1px solid black;
+  border-radius: 100%;
+}
+
+.header__link {
+  text-decoration: none;
+}
+
+.contacts__item {
+  list-style-type: none;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.introduction {
+  position: relative;
+  margin-top: 92px;
+  background-image: url('../images/cover.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 165px 50px 50px 50px;
+}
+
+.introduction__title {
+  color: rgb(255, 255, 255);
+  font-size: 100px;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: 30px;
+  text-transform: uppercase;
+}
+
+.mt {
+  margin-top: 17px;
+}
+
+.last__letter {
+  letter-spacing: normal;
+}
+
+.introductionword-center {
+  text-align: center;
+}
+
+.introductionword-end {
+  text-align: right;
+}
+
+.introduction__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 106px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.introduction__subtitle {
+  word-spacing: 17px;
+  font-size: 22px;
+  line-height: 28px;
+}
+
+.introduction__button {
+  border: 1px solid currentColor;
+  color: white;
+  padding: 12px 32px 11px 31px;
+  background-color: transparent;
+  font-size: 22px;
+}
+
+.contacts__list {
+  list-style-type: none;
+}
+
+.lots__left-margin {
+  margin-left: 40px;
+}
+
+.lots.container {
+  width: 1052px;
+  margin: 0 auto;
+  margin-top: 177px;
+}
+
+.lots__title {
+  font-size: 40px;
+}
+
+.loots__card-start {
+  background-image: url('../images/card-lot-01.jpg');
+}
+
+.lots__cards {
+  list-style-type: none;
+  display: flex;
+  gap: 25px;
+  margin-top: 29px;
+}
+
+.loots__card-center {
+  background-image: url('../images/card-lot-02.jpg');
+}
+
+.loots__card-end {
+  background-image: url('../images/card-lot-03.jpg');
+}
+
+.loots__card {
+  position: relative;
+  width: 334px;
+  min-height: 596px;
+  padding: 48px 40px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.lots__card-text {
+  font-size: 20px;
+}
+
+.lots__subtitle {
+  font-size: 22px;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.lots__link {
+  font-size: 20px;
+  margin-top: 33px;
+  display: block;
+}
+
+.about {
+  margin-top: 152px;
+  padding-left: 72px;
+  display: flex;
+  gap: 72px;
+
+}
+
+.about__logo {
+  width: 240px;
+  height: 240px;
+  border-radius: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__logo-img {
+  width: 148px;
+  height: 114px;
+}
+
+.about__title {
+  font-size: 40px;
+  margin-top: 100px;
+}
+
+.about__text {
+  font-size: 20px;
+}
+
+.about__text-start {
+  margin-top: 101px;
+  width: 688px;
+}
+
+.about__text-end {
+  margin-top: 24px;
+  width: 693px;
+}
+
+.footer {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 185px;
+  display: flex;
+}
+
+.footer__menu {
+  font-size: 18px;
+  list-style-type: none;
+  text-align: center;
+}
+
+.footer__nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__social-media {
+  list-style-type: none;
+  width: 48px;
+  height: 48px;
+}
+
+.footer__socials-medias {
+  display: flex;
+  gap: 48px;
+}
