@@ -8,7 +8,7 @@
 }
 
 .overlay::before {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   background-color: black;
@@ -36,15 +36,13 @@
   display: flex;
   gap: 15px;
   list-style-type: none;
-
 }
 
 .contacts {
   font-style: normal;
 }
-.contacts__link{
+.contacts__link {
   text-decoration: none;
-
 }
 .image-with-margin {
   width: 138px;
@@ -62,7 +60,7 @@
 }
 
 .circle::before {
-  content: '';
+  content: "";
   width: 6px;
   height: 6px;
   border: 1px solid black;
@@ -73,7 +71,7 @@
   text-decoration: none;
 }
 
-.contacts__item{
+.contacts__item {
   font-size: 18px;
   line-height: 24.3px;
 }
@@ -81,7 +79,7 @@
 .introduction {
   position: relative;
   margin-top: 92px;
-  background-image: url('../images/cover.jpg');
+  background-image: url("../images/cover.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 165px 50px 50px 50px;
@@ -156,7 +154,7 @@
 }
 
 .loots__card-start {
-  background-image: url('../images/card-lot-01.jpg');
+  background-image: url("../images/card-lot-01.jpg");
 }
 
 .lots__cards {
@@ -167,11 +165,11 @@
 }
 
 .loots__card-center {
-  background-image: url('../images/card-lot-02.jpg');
+  background-image: url("../images/card-lot-02.jpg");
 }
 
 .loots__card-end {
-  background-image: url('../images/card-lot-03.jpg');
+  background-image: url("../images/card-lot-03.jpg");
 }
 
 .loots__card {
@@ -206,7 +204,6 @@
   padding-left: 72px;
   display: flex;
   gap: 72px;
-
 }
 
 .about__logo {
@@ -272,6 +269,6 @@
   display: flex;
   gap: 48px;
 }
-.footer__link{
+.footer__link {
   text-decoration: none;
 }
